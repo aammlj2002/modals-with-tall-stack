@@ -14,7 +14,6 @@
             <p>If you proceed, your account will be delted entirely.</p>
         </x-slot>
         <x-slot name="footer">
-
             <x-button wire:click="hideModal()" class="bg-gray-400 hover:bg-gray-500">Cancle</x-button>
             <x-button wire:click="delete()" class="bg-blue-400 hover:bg-blue-500">Continue</x-button>
         </x-slot>
