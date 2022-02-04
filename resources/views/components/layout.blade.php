@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Models with TALL Stack</title>
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     @livewireStyles
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 
 <body class="bg-gray-300">
+    <a href="#user-delete-model">Delete User</a>
+    <a href="#another-model">Another Model</a>
     <p class="p-5 mx-10 bg-blue-200">s nihil hic mollitia illo nam tempore? Quo nobis, vitae natus nam velit accusamus
         eligendi
         numquam, unde nesciunt assumenda necessitatibus. Exercitationem impedit ipsa magnam sunt iste nihil quo minima?
@@ -39,8 +41,8 @@
         provident perferendis, odit optio quod eaque incidunt alias. Perferendis, atque magni. Reiciendis deleniti
         laudantium voluptas libero sed quia et sunt amet iure soluta doloribus, adipisci temporibus repudiandae in?</p>
     {{$slot}}
-    <script src="{{asset('js/app.js')}}"></script>
     @livewireScripts
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 
 </html>
