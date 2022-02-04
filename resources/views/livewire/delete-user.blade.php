@@ -6,7 +6,7 @@
         </form>
     </div>
     @if ($show)
-    <x-comfirmation-modal>
+    <x-comfirmation-modal wire:model.defer='show'>
         <x-slot name="title">
             <h3 class="font-bold text-large">Are You Sure?</h3>
         </x-slot>
