@@ -1,3 +1,6 @@
 <x-layout>
-    <livewire:delete-user />
+    <livewire:manage-user />
+    <!-- This example requires Tailwind CSS v2.0+ -->
+
+
 </x-layout>

@@ -4,13 +4,13 @@
 
     <div class="fixed inset-0 h-fit max-w-sm m-auto bg-white rounded-md shadow-md" x-show="show" x-transition>
         <div class="flex flex-col justify-between h-full">
-            <header class="p-3">
+            <header class="pt-4 px-4">
                 {{$title}}
             </header>
-            <main class="p-3">
+            <main class="p-4">
                 {{$body}}
             </main>
-            <footer class="p-3 bg-gray-300 rounded-b-md flex justify-end">
+            <footer class="p-4 bg-gray-300 rounded-b-md flex justify-end">
                 {{$footer}}
             </footer>
         </div>
